@@ -327,7 +327,7 @@ m119 -1401 c7 -7 5 -10 -5 -10 -9 0 -24 -9 -33 -19 -10 -11 -31 -23 -46 -26
     <div class="container" style="padding:10px">
       <h1>Contact</h1>
     </div>
-    <form name="Contact_Form" action="contact.php" method="post" style="padding:10px">
+    <form action="contact.php" method="post" style="padding:10px">
   <div class="form-row  justify-content-center">
     <div class="form-group col-md-4">
       
@@ -344,10 +344,10 @@ m119 -1401 c7 -7 5 -10 -5 -10 -9 0 -24 -9 -33 -19 -10 -11 -31 -23 -46 -26
     <div class="form-group col-md-4">
       <select id="service" class="form-control" required>
         <option selected disabled>Service Needed</option>
-        <option>Historical Research</option>
-        <option>Valuation</option>
-        <option>Formal Report</option>
-        <option>Not Sure</option>
+        <option value="historical">Historical Research</option>
+        <option value="valuation">Valuation</option>
+        <option value="formal">Formal Report</option>
+        <option value="unsure">Not Sure</option>
       </select>
     </div>
   </div>
